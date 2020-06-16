@@ -35,6 +35,7 @@ public class switch01 {
 		        break;
 		    default:
 		    	System.out.println("Not allowed");
+		    	
 
 		
 		

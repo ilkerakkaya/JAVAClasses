@@ -19,21 +19,21 @@ public class swicth02 {
 		char letter=scan.next().charAt(0);
 		
 		switch(letter) {
-		case A:
+		case 'A':
 			System.out.println("First letter");
 			break;
-		case B:
+		case 'B':
 			System.out.println("Second letter");
 			break;
-		case C:
+		case 'C':
 			System.out.println("Third letter");
 	        break;
-		case D:
+		case 'D':
 			System.out.println("Fourth letter");
 	        break;    
 	        
 	    default:
 	    	System.out.println("What kind of letter is this?");
 	}
-
+	}
 }
