@@ -29,6 +29,7 @@ public class HomeworkWhileLoop04 {
 		//2nd way
 
 				int multi=scan.nextInt();
+				multi=Math.abs(multi);
 				int toplam=1;
 				
 				for(int a=1; a<=multi; a++) {
