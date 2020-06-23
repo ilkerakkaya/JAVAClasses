@@ -32,7 +32,7 @@ public class MethodCreation02 {
 			System.out.println("the difference is" + (n1-n2));
 			break;
 		case '*':
-			System.out.println("the multipication is" + (n1*n2));
+			System.out.println("the multipication is " + (n1*n2));
 			break;
 		case '/':
 			System.out.println("the division is" + (n1/n2));
