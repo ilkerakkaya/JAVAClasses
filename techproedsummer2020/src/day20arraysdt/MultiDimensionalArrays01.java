@@ -60,6 +60,8 @@ public class MultiDimensionalArrays01 {
 		int mda1[][]= {{3,4,5}, {6}, {7,8}};
 		System.out.println(Arrays.deepToString(mda));
 		
+		//last commit
+		
 		
 		
 		
