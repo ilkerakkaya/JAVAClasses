@@ -12,8 +12,107 @@ public class ForEachLoop01 {
 			System.out.print(w + " ");
 		}
 		
+		// Find the sum of all elements
 		
+		int sum=0;
+		for(int w : arr) {
+			sum=sum+w;
+		}
+		System.out.println(sum);
+		
+		
+		//Print the even elements 
+		
+		
+		for (int w : arr) {
+			if(w%2==0) {
+				System.out.println(w + " ");
+			}
+
+			
+		
+			
+
+//		for (int w : arr) {
+//			if(w%2!=0) {
+//				continue;
+//			}
+//			
+//			System.out.println(w + " ");
+			
+			
+			
+			
+		//Find the multipication of odd elemenets
+			
+			int product =1;
+			for(int w : arr) {
+				if(w%2==0) {
+					continue;
+				}
+				
+				product=product*w;
+			}
+			
+			System.out.println(product);
+			
+			
+			
+			//Find the sum off all elements except 3
+			
+			int sum1=0;
+			for(int w : arr) {
+				if(w==3) {
+					continue;
+				}
+			sum1=sum1+w;
+			}
+			System.out.println(sum1);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+//		
+			
+		}
 
 	}
-
 }
+
