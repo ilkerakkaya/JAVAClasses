@@ -1,7 +1,7 @@
 package day24varargsaccessmodifiersstringbuilderdt;
-​
+
 public class Varargs01 {
-​
+
 	public static void main(String[] args) {
 		/*
 		 Sometimes we need flexible number of parameters

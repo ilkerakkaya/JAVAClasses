@@ -1,16 +1,14 @@
 package day18statickeyworddt;
-​
+
 public class StaticKeyword01 {
 	
 	static int i = 12;
 	
 	int k = 13;
-​
 	public static void main(String[] args) {
 		//Number of non-static variables is equal to the
 		//number of objects which you created
-​
-		//Static variables are attached to the class
+	//Static variables are attached to the class
 		//because of that other name of the static variables
 		//is "class variables".
 		

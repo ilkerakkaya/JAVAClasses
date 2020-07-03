@@ -46,12 +46,12 @@ public class ForEachLoop01 {
 		//Find the multipication of odd elemenets
 			
 			int product =1;
-			for(int w : arr) {
-				if(w%2==0) {
+			for(int w1 : arr) {
+				if(w1%2==0) {
 					continue;
 				}
 				
-				product=product*w;
+				product=product*w1;
 			}
 			
 			System.out.println(product);
@@ -61,11 +61,11 @@ public class ForEachLoop01 {
 			//Find the sum off all elements except 3
 			
 			int sum1=0;
-			for(int w : arr) {
-				if(w==3) {
+			for(int w1 : arr) {
+				if(w1==3) {
 					continue;
 				}
-			sum1=sum1+w;
+			sum1=sum1+w1;
 			}
 			System.out.println(sum1);
 			

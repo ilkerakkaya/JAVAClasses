@@ -1,7 +1,5 @@
 package day18statickeyworddt;
-​
 public class StaticKeyword02 {
-​
 	public static void main(String[] args) {
 		// i = 12 ==> static     and      k = 13 ==> non-static
 		
@@ -21,7 +19,6 @@ public class StaticKeyword02 {
 		
 		//Static variables are common variables for every object because of that if you make
 		//any update on a static variable all objects will see the update
-​
 	}
-​
+
 }

@@ -1,7 +1,6 @@
 package day17constructorsmethodcreationsdt;
 
 public class MethodCreation03 {
-​
 
 	public static void main(String[] args) {
        add();
@@ -44,9 +43,7 @@ public class MethodCreation03 {
 	
 	public static void add(boolean b, int x) {
 		
-	
-​
-}
+	}
 	
 }
 
